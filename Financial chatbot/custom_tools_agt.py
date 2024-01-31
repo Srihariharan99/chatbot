@@ -4,13 +4,8 @@ from langchain.tools import DuckDuckGoSearchRun
 from langchain.utilities import WikipediaAPIWrapper
 from langchain import PromptTemplate
 from langchain import  LLMChain
-from langchain.llms import GooglePalm
-from langchain.utilities import SerpAPIWrapper
-from langchain.tools import DuckDuckGoSearchRun
-from langchain.utilities import WikipediaAPIWrapper
 from langchain.agents import load_tools, Tool, initialize_agent,AgentType
 from langchain.chains.conversation.memory import ConversationBufferWindowMemory
-# from pymongo import MongoClient as DB
 import os
 from os import getenv
 from dotenv import load_dotenv
