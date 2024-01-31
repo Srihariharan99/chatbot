@@ -1,4 +1,4 @@
-# Financial Chatbot 
+# Financial Chatbot
 
 This project is able to chat about financial market status 
 
